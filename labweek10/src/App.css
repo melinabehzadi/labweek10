@@ -1,0 +1,83 @@
+body, html, #root, .App {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+.form-container {
+  width: 95%; /* Increased width */
+  max-width: 1500px; /* Increased max width for large screens */
+  border: 5px solid #2e7d32; /* Thicker border */
+  padding: 40px; /* More padding for a bigger look */
+  border-radius: 12px;
+  background-color: white;
+}
+
+h1 {
+  font-size: 3rem; /* Bigger title */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 30px; /* More spacing between fields */
+  margin-bottom: 1.5rem;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1.5rem; /* Bigger label text */
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 20px; /* Larger padding for input fields */
+  margin-bottom: 15px;
+  border: 2px solid #ccc; /* Thicker border */
+  border-radius: 6px;
+  font-size: 1.5rem; /* Bigger font size for inputs */
+}
+
+input[type="checkbox"] {
+  margin-right: 15px;
+  transform: scale(1.5); /* Bigger checkbox */
+}
+
+button {
+  width: 100%;
+  padding: 20px; /* Larger padding for button */
+  font-size: 1.5rem; /* Bigger font for button */
+  font-weight: bold;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+button:hover {
+  background-color: #1e5d21;
+}
+
+.submitted-data {
+  border: 5px solid #2e7d32; /* Thicker border for submission box */
+  padding: 40px; /* More padding for the submission box */
+  margin-top: 40px;
+  color: #2e7d32;
+  font-size: 1.5rem; /* Bigger font for submitted data */
+  width: 95%; /* Matches the form width */
+  max-width: 1500px;
+  border-radius: 12px;
+}
